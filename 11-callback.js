@@ -3,7 +3,7 @@ const sumar = (numero, callback) => {
     return numero + callback(numero)
 }
 
-const resultado = sumar(2, numero => numero * 2)
+const resultado = sumar(2, numero => numero ** 2)
 console.log(resultado)
 
 const lista = [1, 2, 3]

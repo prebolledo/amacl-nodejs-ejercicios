@@ -9,7 +9,7 @@ console.log(valorVeracidad)
 
 // Operadores Aritmeticos
 
-// + | - | * | / | % | ^ | ++ | --
+// + | - | * | / | % | ** | ++ | --
 
 
 //Operador Ternario

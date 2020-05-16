@@ -77,6 +77,14 @@ nuevaLista = lista.sort((elemento1, elemento2) => elemento2 - elemento1 )
 console.log(nuevaLista)
 
 console.log(letras.sort())
+console.log(letras.sort((a, b)=>{
+    if(a > b){
+        return -1
+    }else if(a < b){
+        return 1
+    }
+    return 0
+}))
 
 //SPLICE CUT
 

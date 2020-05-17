@@ -76,7 +76,10 @@ console.log(letras.reverse())
 nuevaLista = lista.sort((elemento1, elemento2) => elemento2 - elemento1 )
 console.log(nuevaLista)
 
+//Ordenar Ascendente
 console.log(letras.sort())
+
+//Ordenar Descentende
 console.log(letras.sort((a, b)=>{
     if(a > b){
         return -1
